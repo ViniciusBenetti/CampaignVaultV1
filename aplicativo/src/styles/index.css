@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-div{
+    width: 1440px;
+    height: 924px;
+}
+#Group-7{
+    width: 320.63px;
+    height: 28px;
+    color: black;
+    margin-left: 69px;
+    font: 'FONTSPRING DEMO - Lufga ExtraLight';
+    font-weight: 200;
+    font-size: 21.72px;
+    line-height: 28.35px;
+
+}

@@ -11,6 +11,7 @@ export const Home = ():JSX.Element => {
                     </div>
                     <div id='div-header-header'>
                         <Link to='/Login'>LOGAR</Link>
+                        <Link to ='/'>MENU</Link>
 
                     </div>
                 </div>

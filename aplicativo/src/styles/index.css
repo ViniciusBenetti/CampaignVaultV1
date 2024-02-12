@@ -2,18 +2,50 @@
     margin: 0;
     padding: 0;
 }
-#home-div{
-    width: 1440px;
-    height: 924px;
-}
-#Group-7{
-    width: 320.63px;
-    height: 28px;
-    color: black;
-    margin-left: 69px;
-    font: 'FONTSPRING DEMO - Lufga ExtraLight';
-    font-weight: 200;
-    font-size: 21.72px;
-    line-height: 28.35px;
 
+.home-div{
+    background: #FFF8F2;
+}
+.div-header-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Group-7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 69px;
+    margin-top: 62.62px;
+    width: 320px;
+    height: 28px;
+}
+.div-header-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 49px;
+    height: 60px;
+    width: 357px;
+    margin-top: 47px;
+    gap: 21px;
+    
+}
+
+.div-header-header *{
+    display: flex;
+    width: 168px;
+    height: 60px;
+    padding: 20px, 40px, 20px, 40px;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#entrar{
+    border-radius: 60px;
+    border: 2px solid orange;
 }

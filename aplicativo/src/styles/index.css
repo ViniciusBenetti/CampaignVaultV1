@@ -32,7 +32,14 @@
     
 }
 
-.div-header-header *{
+
+.Group-6{
+    text-align: center;
+    margin-top: 245px;
+}
+
+
+.div-header-header #cadastro{
     display: flex;
     width: 168px;
     height: 60px;
@@ -45,7 +52,60 @@
     
 
 }
+.div-header-header #entrar{
+    display: flex;
+    width: 168px;
+    height: 60px;
+    padding: 20px, 40px, 20px, 40px;
+    gap: 10px;
+    text-decoration: underline;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    
+
+}
 #entrar{
     border-radius: 60px;
     border: 2px solid orange;
+}
+.cards{
+    display: flex;
+    width: 733.73px;
+    height: 200px;
+    margin-top: 122px;
+    margin-left: 52px;    
+
+
+}
+.cards div{
+    display: flex;
+    flex-direction: column;
+    width: 233px;
+    border: solid #FF7A00 2px;
+    border-radius: 20px;
+    gap: 23px;
+    margin-right: 20px;
+
+
+}
+.cards div legend{
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.cards div span{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.blog{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.blog img{
+    background: url('../../public/blog.png');
 }

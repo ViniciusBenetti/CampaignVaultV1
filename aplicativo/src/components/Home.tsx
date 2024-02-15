@@ -17,9 +17,9 @@ export const Home = ():JSX.Element => {
                     </div>
                 </div>
             </header>
-            <img src="porco.gif" alt="porco" id='Group-8'/>
+            <img  alt="" id='Group-8'/>
             <div className='Group-6'>
-                <h1>CAMPAIGNVAULT</h1>
+                <h1>CampaignVault</h1>
                 <span>Uma ferramente que promete te deixar rico.</span>
             </div>
             <div className='cards'>
@@ -38,7 +38,7 @@ export const Home = ():JSX.Element => {
             </div>
             <div>
                 <div className='Blog'>
-                    <img src="blog.png" alt="blog" id='blog'/>
+                    <img alt="blog" id='blog'/>
                 </div>
             </div>
 

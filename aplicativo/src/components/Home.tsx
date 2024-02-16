@@ -1,5 +1,6 @@
 import '../styles/index.css'
 import { Link } from 'react-router-dom'
+import blog from './blog.png';
 
 export const Home = ():JSX.Element => {
     return(
@@ -36,11 +37,9 @@ export const Home = ():JSX.Element => {
                     <span>Saiba como ajustar suas estratégias para alcançar os melhores resultados em suas campanhas.</span>
                 </div>
             </div>
-            <div>
-                <div className='Blog'>
-                    <img alt="blog" id='blog'/>
+            <div className='Blog'>
+                    <img alt="blog" id='blog' src={blog}/>
                 </div>
-            </div>
 
         </div>
     ) 

@@ -5,6 +5,7 @@
 
 .home-div{
     background: #FFF8F2;
+    border: 2px solid black;
 }
 .div-header-div{
     display: flex;
@@ -100,12 +101,27 @@
 .cards div span{
     padding-right: 10px;
     padding-left: 10px;
+
 }
-.blog{
-    position: fixed;
-    right: 0;
-    bottom: 0;
+.Blog{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    margin-bottom: 0;
+    margin-left: 80vw;
+    width: 400px;
+    padding: 0px, 89px, 0px, 0px;
+    border-top-left-radius: 43px;
+
+    
 }
-.blog img{
-    background: url('../../public/blog.png');
+#blog{
+    width: 225px;
+    height: 90px;
+    align-self: center;
+
+    border-radius: 43.04px;
+
+    
 }
+

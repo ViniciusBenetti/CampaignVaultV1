@@ -4,7 +4,8 @@ import blog from './blog.png';
 import pigup from './pigup.gif'
 
 export const Home = ():JSX.Element => {
-    return(
+    return (
+        <body>   
         <div className='home-div'>
             <header className='header'>
                 <div className='div-header-div'>
@@ -14,8 +15,8 @@ export const Home = ():JSX.Element => {
                         <span>Criadores</span>
                     </div>
                     <div className='div-header-header'>
-                        <Link to='/Login' id='entrar'>ENTRAR</Link>
-                        <Link to='/Cadastro' id='cadastro'>CADASTRO</Link>
+                        <Link to='/Login' id='entrar'>Entrar</Link>
+                        <Link to='/Cadastro' id='cadastro'>Cadastro</Link>
                     </div>
                 </div>
             </header>
@@ -30,7 +31,7 @@ export const Home = ():JSX.Element => {
                     <span>Descubra como transformar o retorno dos seus impulsionamentos em publicidade.</span>
                 </div>
                 <div>
-                    <legend>Dados Estratégicos</legend>
+                    <legend>Dados e Analises Estrat.</legend>
                     <span>Explore a importância da análise de dados para refinamentos contínuos das campanhas.</span>
                     </div>
                 <div>
@@ -40,8 +41,9 @@ export const Home = ():JSX.Element => {
             </div>
             <div className='Blog'>
                     <img alt="blog" id='blog' src={blog}/>
-                </div>
+            </div>
 
         </div>
+        </body>
     ) 
 }

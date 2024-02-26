@@ -1,7 +1,7 @@
 import '../styles/index.css'
 import { Link } from 'react-router-dom'
-import blog from './blog.png';
-import pigup from './pigup.gif'
+import blog from './images/blog.png';
+import pigup from './images/pigup.gif'
 
 export const Home = ():JSX.Element => {
     return (
@@ -23,7 +23,7 @@ export const Home = ():JSX.Element => {
             <img  alt="pigup" id='Group-8' src={pigup}/>
             <div className='Group-6'>
                 <h1>CampaignVault</h1>
-                <span>Uma ferramente que promete te deixar rico.</span>
+                <span>Uma ferramenta que promete te deixar rico.</span>
             </div>
             <div className='cards'>
                 <div>
@@ -39,9 +39,13 @@ export const Home = ():JSX.Element => {
                     <span>Saiba como ajustar suas estratégias para alcançar os melhores resultados em suas campanhas.</span>
                 </div>
             </div>
+
+            
             <div className='Blog'>
+
                     <img alt="blog" id='blog' src={blog}/>
             </div>
+
 
         </div>
         </body>

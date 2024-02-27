@@ -21,11 +21,13 @@
     height: 28px;
 }
 
-.Group-7 span{
+.Group-7 *{
     font-size: 22px;
     font-weight: 200;
     line-height: 28px;
     letter-spacing: -0.015em;
+    text-decoration: none;
+    color: #000000;
 
 }
 .div-header-header{
@@ -174,7 +176,6 @@
     flex-direction: row;
     width: 1532px;
     height: 547px;
-    background: red;
     margin-top: 90px;
     margin-left: 130px;
 }
@@ -182,8 +183,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 30px;
-    margin-top: 100px;
+    margin-left: 20px;
+    margin-top: 80px;
 
 }
 .login-div .Group-10 .Group-9 #pig{
@@ -208,6 +209,111 @@
 .login-div .Group-10 .Group-4{
     margin-left: 80px;
 }
+.login-div .Group-4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 495px;
+    height: 517px;
+
+}
+.login-div .Group-4 h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 63px;
+    letter-spacing: 0em;
+
+}
+
+.login-div .Group-4 input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: #FF7A00 solid 2px;
+    width: 489px;
+    height: 34px;
+    margin-top: 40px;
+    background: transparent;
+
+
+}
+
+.login-div .esqueceu-senha{
+    margin-top: 13px;
+    text-align: end;
+
+}
+.login-div .esqueceu-senha *{
+    text-align: end;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #797C7E;
+}
+.login-div .Group-4 button{
+    width: 168px;
+    height: 60px;
+    padding: 20px, 40px, 20px, 40px;
+    border-radius: 60px;
+    border: 2px;
+    gap: 10px;
+    background:#FF9200;
+    border: 2px solid #000000;
+    align-self: center;
+    margin-top: 73px;
+}
+.login-div .Group-4 button *{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    color: white;
+    text-decoration: none;
+
+}
+
+.login-div .ou-entre-com{
+    margin-top: 23px;
+}
+.login-div .ou-entre-com hr{
+    border: 1px solid #FF9200;
+    width: 97px;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 33px;
+    margin-right: 33px;
+
+}
+.login-div .social-media{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    justify-content: center;
+}
+.login-div .email{
+    position: absolute;
+    top: 280px;
+    left: 1015px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #797C7E;
+
+}
+.login-div .password{
+    position: absolute;
+    top: 356px;
+    left: 1015px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #797C7E;
+
+}
+
 
 
 

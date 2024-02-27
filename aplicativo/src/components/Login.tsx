@@ -10,9 +10,9 @@ export const Login = ():JSX.Element => {
             <header className='header'>
                 <div className='div-header-div'>
                     <div className='Group-7'>
-                        <span>Contato</span>
-                        <span>Sobre</span>
-                        <span>Criadores</span>
+                        <span><Link to='/Contato'>Contato</Link></span>
+                        <span><Link to='/Sobre'>Sobre</Link></span>
+                        <span><Link to='/Criadores'>Criadores</Link></span>
                     </div>
                     <div className='div-header-header'>
                         <Link to='/Login' id='entrar'>Entrar</Link>
@@ -42,17 +42,16 @@ export const Login = ():JSX.Element => {
                 <input type="text" />
 
                 <div className="esqueceu-senha">
-                    <span>esqueceu a senha?</span>
+                    <span><Link to='/EsqueceuSenha'>esqueceu a senha?</Link></span>
 
                 </div>
-                <button>Entrar</button>
+                <button><Link to='/Entrou'>Entrar</Link></button>
                 <div className="ou-entre-com">
                     <span><hr></hr>ou entre com<hr></hr></span>
 
                     <div className="social-media">
-                        fb logo 
-                        google logo
-
+                        
+                            logos aqui
                     </div>
                 </div>
             </div>
@@ -62,6 +61,8 @@ export const Login = ():JSX.Element => {
         <div className='Blog'>
             <img alt="blog" id='blog' src={blog}/>
         </div>
+        <span className="email">Email</span>
+        <span className="password">Password</span>
             
                 
         </div>

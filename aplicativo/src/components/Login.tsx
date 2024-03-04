@@ -2,6 +2,8 @@ import '../styles/index.css'
 import { Link } from 'react-router-dom'
 import blog from './images/blog.png';
 import pigup from './images/pigup.gif'
+import eye from './images/eye.png'
+import offeye from './images/offeye.svg'
 
 export const Login = ():JSX.Element => {
 
@@ -38,8 +40,8 @@ export const Login = ():JSX.Element => {
                         Bem Vindo
                     </h1>
                 </header>
-                <input type="text" />
-                <input type="text" />
+                <input type="email" />
+                <input type='password' />
 
                 <div className="esqueceu-senha">
                     <span><Link to='/EsqueceuSenha'>esqueceu a senha?</Link></span>
@@ -63,6 +65,7 @@ export const Login = ():JSX.Element => {
         </div>
         <span className="email">Email</span>
         <span className="password">Password</span>
+        <img src={eye} alt="olhoaberto" className='eye'/>
             
                 
         </div>

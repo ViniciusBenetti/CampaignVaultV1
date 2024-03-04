@@ -10,9 +10,9 @@ export const Home = ():JSX.Element => {
             <header className='header'>
                 <div className='div-header-div'>
                     <div className='Group-7'>
-                        <span>Contato</span>
-                        <span>Sobre</span>
-                        <span>Criadores</span>
+                    <span><Link to='/Contato'>Contato</Link></span>
+                    <span><Link to='/Sobre'>Sobre</Link></span>
+                    <span><Link to='/Criadores'>Criadores</Link></span>
                     </div>
                     <div className='div-header-header'>
                         <Link to='/Login' id='entrar'>Entrar</Link>

@@ -2,10 +2,43 @@ import '../styles/index.css'
 import { Link } from 'react-router-dom'
 import blog from './images/blog.png';
 import pigup from './images/pigup.gif'
-import eye from './images/eye.png'
 import offeye from './images/offeye.svg'
+import eye  from './images/eye.svg'
+import face from './images/face.svg'
+import google from './images/google.svg'
+import { MouseEventHandler, useState } from 'react';
+
 
 export const Login = ():JSX.Element => {
+
+    const [olho, setOlho] = useState(false);
+
+    const handleClickEyes:MouseEventHandler = () => {
+        console.log("confirm")
+        
+ 
+        const senhaInput = document.querySelector('password') as HTMLInputElement;
+        const olhoFechado = document.querySelector('#olhofechado') as HTMLImageElement
+        const olhoAberto = document.querySelector("#olhoaberto") as HTMLImageElement
+
+        setOlho(!olho); 
+        if(olho){
+            olhoFechado.style.display = 'none'
+            olhoAberto.style.display = 'block'
+            senhaInput.type = 'text';
+
+
+        }else if(!olho){
+            olhoFechado.style.display = 'block'
+            olhoAberto.style.display = 'none'
+            senhaInput.type = 'password';
+
+        }else{
+            console.log("erro");
+        }
+ 
+      
+    };
 
     return(
         <div className='login-div'>
@@ -41,7 +74,7 @@ export const Login = ():JSX.Element => {
                     </h1>
                 </header>
                 <input type="email" />
-                <input type='password' />
+                <input type='password'/>
 
                 <div className="esqueceu-senha">
                     <span><Link to='/EsqueceuSenha'>esqueceu a senha?</Link></span>
@@ -53,7 +86,8 @@ export const Login = ():JSX.Element => {
 
                     <div className="social-media">
                         
-                            logos aqui
+                    <img src={face} alt="facebooklogo"  id='facelogo'/>
+                    <img src={google} alt="googlelogo"  id='googlelogo'/>
                     </div>
                 </div>
             </div>
@@ -65,7 +99,9 @@ export const Login = ():JSX.Element => {
         </div>
         <span className="email">Email</span>
         <span className="password">Password</span>
-        <img src={eye} alt="olhoaberto" className='eye'/>
+        <img src={offeye} alt="olhofechado" id='olhofechado'/>
+        <img src={eye} alt="olhoaberto" id='olhoaberto' onClick={handleClickEyes}/>
+
             
                 
         </div>

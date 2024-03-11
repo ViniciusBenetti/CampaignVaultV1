@@ -50,3 +50,8 @@ body{
 .Blog img, #entrar, #cadastro, .Group-7 span{
   cursor: pointer;
 }
+.ou-entre-com{
+  font-family: 'fontSpring-lufga-light';
+  color: #FF7A00;
+}
+

@@ -95,7 +95,7 @@ export const Login = ():JSX.Element => {
         </div>
 
         <div className='Blog'>
-            <img alt="blog" id='blog' src={blog}/>
+            <Link to='/BlogSemLogar'><img alt="blog" id='blog' src={blog}/></Link>
         </div>
         <span className="email">Email</span>
         <span className="password">Password</span>

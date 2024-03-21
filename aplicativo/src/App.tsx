@@ -7,6 +7,7 @@ import { EsqueceuSenha } from './components/EsqueceuSenha';
 import { Logou } from './components/Logou';
 import { Criadores } from './components/Criadores';
 import { Sobre } from './components/Sobre';
+import { BlogSemLogar } from './components/BlogSemLogar';
 
 
 
@@ -21,6 +22,7 @@ export const App = () => {
           <Route path='/Logou' element={<Logou/>}/>
           <Route path='/Criadores' element={<Criadores/>}/>
           <Route path='/Sobre' element={<Sobre/>}/>
+          <Route path='/BlogSemLogar' element={<BlogSemLogar/>}/>
         </Routes>
       </BrowserRouter>
   )

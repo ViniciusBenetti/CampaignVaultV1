@@ -43,7 +43,7 @@ export const Home = ():JSX.Element => {
             
             <div className='Blog'>
 
-                    <img alt="blog" id='blog' src={blog}/>
+                <Link to='/BlogSemLogar'><img alt="blog" id='blog' src={blog}/></Link>
             </div>
 
 
